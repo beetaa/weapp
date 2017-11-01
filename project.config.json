@@ -12,8 +12,16 @@
 	"projectname": "weapp",
 	"condition": {
 		"weapp": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "haha",
+					"pathName": "pages/index/index",
+					"query": "name=zwm",
+					"scene": "1014"
+				}
+			]
 		},
 		"search": {
 			"current": -1,

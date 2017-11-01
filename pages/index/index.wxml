@@ -1,3 +1,15 @@
 <view class="container">
-  <canvas canvas-id="myCanvas" style="border: 1px solid;"/>
+  <view>{{text}}</view>
+  <view>{{array[0].msg}}</view>
+  <view>新字段：{{newField.text}}</view>
+  <view>haha</view>
+  <view bindtap="viewTap">haha</view>
+  <button bindtap="addNewField">添加新数据</button>
+  <button bindtap="changeField">更改数据</button>
+  <navigator open-type='reLaunch' url='/pages/index/index'>重启本页</navigator>
+  <view wx:for="{{array}}">{{item.msg}}</view>
+  <block wx:for="{{[1, 2, 3]}}">
+    <view> {{index}}: </view>
+    <view> {{item}} </view>
+  </block>
 </view>
