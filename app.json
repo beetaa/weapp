@@ -15,11 +15,13 @@
     "position": "bottom",
     "backgroundColor": "#000",
     "color": "#999",
-    "selectedColor": "white",
+    "selectedColor": "blue",
     "list": [
       {
         "text": "首页",
-        "pagePath": "pages/index/index"
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/icon/setting-01.png",
+        "selectedIconPath": "assets/icon/setting-02.png"
       },
       {
         "text": "界面",
