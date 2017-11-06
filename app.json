@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/ui-list/ui-list",
-    "pages/api-list/api-list",
-    "pages/app-list/app-list",
+    "pages/app/list/list",
+    "pages/ui/list/list",
+    "pages/api/list/list",
+    "pages/other/list/list",
     "pages/api/upload/upload"
   ],
   "window": {
@@ -21,28 +21,28 @@
     "selectedColor": "#fff",
     "list": [
       {
-        "text": "学习中",
-        "pagePath": "pages/index/index",
-        "iconPath": "assets/icon/index.png",
-        "selectedIconPath": "assets/icon/index-selected.png"
-      },
-      {
         "text": "框架",
-        "pagePath": "pages/app-list/app-list",
+        "pagePath": "pages/app/list/list",
         "iconPath": "assets/icon/app.png",
         "selectedIconPath": "assets/icon/app-selected.png"
       },
       {
         "text": "界面",
-        "pagePath": "pages/ui-list/ui-list",
+        "pagePath": "pages/ui/list/list",
         "iconPath": "assets/icon/ui.png",
         "selectedIconPath": "assets/icon/ui-selected.png"
       },
       {
         "text": "API",
-        "pagePath": "pages/api-list/api-list",
+        "pagePath": "pages/api/list/list",
         "iconPath": "assets/icon/api.png",
         "selectedIconPath": "assets/icon/api-selected.png"
+      },
+      {
+        "text": "探索",
+        "pagePath": "pages/other/list/list",
+        "iconPath": "assets/icon/other.png",
+        "selectedIconPath": "assets/icon/other-selected.png"
       }
     ]
   }

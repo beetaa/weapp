@@ -1,4 +1,5 @@
-// pages/api/upload/upload.js
+var uploadFn = require('./uploadFn.js')
+
 Page({
 
   /**
@@ -62,5 +63,23 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  /**
+   * 点击“上传图片”按钮
+   */
+  uploadImage: function () {
+    wx.chooseImage({
+      success: function (res) {
+        // 获取本地文件路径和文件名，需要进一步了解这个路径的细节，这个分析方法只适合真机，PC端无效
+        var localFilePath = res.tempFilePaths[0];
+        var fileName = localFilePath.match(/(wxfile:\/\/)(.+)/)
+        fileName = fileName[2]
+        console.log('本地文件：', localFilePath, fileName)
+        // 调用上传函数
+        uploadFn(localFilePath, fileName)
+        
+      }
+    })
   }
 })
