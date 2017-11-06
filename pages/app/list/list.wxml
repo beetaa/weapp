@@ -1,2 +1,18 @@
-<!--pages/user-list/user-list.wxml-->
-<text>pages/user-list/user-list.wxml</text>
+<view class="weui-cells__title app-list-title">初始化</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">获取打开的路径、参数、场景和来源</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">获取系统信息</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+<view class="weui-cells__title app-list-title">基础功能</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">通过 getApp() 获取小程序实例</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>

@@ -1,3 +1,4 @@
 <view class="page__bd page__bd_spacing">
   <button class="weui-btn" type="default" bindtap="uploadImage">上传图片</button>
+  <progress wx:if="{{image_percent > 0}}" percent="{{image_percent}}" show-info />
 </view>
