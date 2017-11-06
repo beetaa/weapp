@@ -8,3 +8,7 @@
   padding: 5rpx 0;
   box-sizing: border-box;
 } 
+
+.app-list-title {
+  padding-top: 10px;
+}

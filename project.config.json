@@ -4,25 +4,14 @@
 		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
-		"minified": true
+		"minified": true,
+		"newFeature": true
 	},
-	"compileType": "weapp",
+	"compileType": "miniprogram",
 	"libVersion": "1.6.0",
 	"appid": "wx76a95a30a5d4a276",
 	"projectname": "weapp",
 	"condition": {
-		"weapp": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "haha",
-					"pathName": "pages/index/index",
-					"query": "name=zwm",
-					"scene": "1014"
-				}
-			]
-		},
 		"search": {
 			"current": -1,
 			"list": []
@@ -30,6 +19,18 @@
 		"conversation": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "haha",
+					"pathName": "pages/api-list/api-list",
+					"query": "name=zwm",
+					"scene": "1014"
+				}
+			]
 		}
 	}
 }

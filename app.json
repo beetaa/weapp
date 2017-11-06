@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/ui/ui"
+    "pages/ui-list/ui-list",
+    "pages/api-list/api-list",
+    "pages/app-list/app-list",
+    "pages/api/upload/upload"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -14,18 +17,32 @@
   "tabBar": {
     "position": "bottom",
     "backgroundColor": "#000",
-    "color": "#999",
-    "selectedColor": "blue",
+    "color": "#888",
+    "selectedColor": "#fff",
     "list": [
       {
-        "text": "首页",
+        "text": "学习中",
         "pagePath": "pages/index/index",
-        "iconPath": "assets/icon/setting-01.png",
-        "selectedIconPath": "assets/icon/setting-02.png"
+        "iconPath": "assets/icon/index.png",
+        "selectedIconPath": "assets/icon/index-selected.png"
+      },
+      {
+        "text": "框架",
+        "pagePath": "pages/app-list/app-list",
+        "iconPath": "assets/icon/app.png",
+        "selectedIconPath": "assets/icon/app-selected.png"
       },
       {
         "text": "界面",
-        "pagePath": "pages/ui/ui"
+        "pagePath": "pages/ui-list/ui-list",
+        "iconPath": "assets/icon/ui.png",
+        "selectedIconPath": "assets/icon/ui-selected.png"
+      },
+      {
+        "text": "API",
+        "pagePath": "pages/api-list/api-list",
+        "iconPath": "assets/icon/api.png",
+        "selectedIconPath": "assets/icon/api-selected.png"
       }
     ]
   }
