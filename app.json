@@ -7,7 +7,9 @@
     "pages/api/cos/upload/upload",
     "pages/api/cos/use/use",
     "pages/app/init/sysinfo/sysinfo",
-    "pages/api/media/image/image"
+    "pages/api/media/image/image",
+    "pages/app/basic/auth/auth",
+    "pages/api/media/voice/voice"
   ],
   "window": {
     "backgroundTextStyle": "light",

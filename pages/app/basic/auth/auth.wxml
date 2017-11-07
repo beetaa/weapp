@@ -1,0 +1,17 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="">获取用户信息</button>
+  <button class="weui-btn" type="default" bindtap="authRecord">获取录音权限</button>
+  <button class="weui-btn" type="default" bindtap="">获取地理位置权限</button>
+  <button class="weui-btn" type="default" bindtap="">获取绑定微信的电话号码</button>
+  <button class="weui-btn" type="default" bindtap="">获取用户地址</button>
+  <button class="weui-btn" type="default" bindtap="">获取用户发票抬头信息</button>
+  <button class="weui-btn" type="default" bindtap="">获取微信运动步数</button>
+  <button class="weui-btn" type="default" bindtap="">获取写入相册的权限</button>
+  <button class="weui-btn" type="default" bindtap="">用户授权管理对话框</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text></text></view>
+</view>
