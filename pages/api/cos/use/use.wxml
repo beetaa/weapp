@@ -1,0 +1,4 @@
+<view class="weui-cells__title app-list-title">引用 cos 图片</view>
+<view class="weui-cells weui-cells_after-title">
+  <image src="http://weapp-1255317411.cosgz.myqcloud.com/tmp_a6216b865a701cde67345e408078d71d68ded2330db9fa51.jpg" style="width: 100%" mode="aspectFit"></image>
+</view>

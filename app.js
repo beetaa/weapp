@@ -10,7 +10,7 @@ App({
   onLaunch: function (params) {
     // 可以在　onLaunch, onShow 中获取小程序打开的场景、路径、路径参数等
     // todo: 还可以获取程序打开的上一个来源appid，具体参考文档
-    console.log(params.path, params.query, params.scene, params.shareTicket)
+    this.data.params = params
     // 本地存储
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -44,7 +44,7 @@ App({
                     wx.getUserInfo({
                       success: res => {
                         var userInfo = res.userInfo
-                        this.globalData.userInfo = userInfo
+                        this.data.user = userInfo
                         console.log('已获授权查看用户信息')
                         console.log(userInfo)
                       },
@@ -79,7 +79,9 @@ App({
   // 可以添加任何函数和数据
   // 可以在本文件通过　this 访问
   // 也可以在其他页面通过　getApp() 后进行访问
-  globalData: {
-    userInfo: null
+  data: {
+    user: null,
+    system: null,
+    params: null
   }
 })

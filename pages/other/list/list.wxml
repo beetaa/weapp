@@ -40,11 +40,35 @@
   </navigator>
 </view>
 
-<view class="weui-cells__title app-list-title">Canvas 绘图</view>
+<view class="weui-cells__title app-list-title">Canvas 绘图（系统自带）</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">基本绘图函数</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+
+<view class="weui-cells__title app-list-title">Canvas 绘图（WeZrender）</view>
 <!-- https://github.com/guyoung/WeZRender  -->
 <view class="weui-cells weui-cells_after-title">
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">基本绘图函数</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">Button</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+
+<view class="weui-cells__title app-list-title">SVG 绘图（系统及Webview）</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">Button</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+
+<view class="weui-cells__title app-list-title">动画特效（第三方）</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">Button</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
 </view>

@@ -1,0 +1,30 @@
+<view class="weui-cells__title app-list-title">程序打开信息</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">打开页</view>
+    <view class="weui-cell__ft">{{params.path}}</view>
+  </view>
+  <!-- tips: wx:for 可以遍历对象，index 是 key，item 是 value -->
+  <view class="weui-cell" wx:for="{{query}}">
+    <view class="weui-cell__bd">query[{{index}}]</view>
+    <view class="weui-cell__ft">{{item}}</view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">场景值</view>
+    <view class="weui-cell__ft">{{params.scene}}</view>
+  </view>
+</view>
+
+<view class="weui-cells__title app-list-title">系统信息</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell" wx:for="{{sysinfos}}">
+    <view class="weui-cell__bd">{{index}}</view>
+    <view class="weui-cell__ft">{{item}}</view>
+  </view>
+</view>
+
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>wx:for 可以遍历对象</text></view>
+  <view class="weui-cell"><text>页面通过 getApp() 获取程序实例</text></view>
+</view>

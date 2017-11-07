@@ -1,0 +1,27 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="chooseSingleImage">选择图片（限1张）</button>
+  <image wx:if="{{singleImages.length > 0}}" src="{{singleImages[0].path}}" mode="aspectFit"></image>
+
+  <button class="weui-btn" type="default" bindtap="chooseMultiImages">选择图片（最多9张）</button>
+  <image wx:for="{{multiImages}}" src="{{item.path}}" style="width: 64px; height: 64px;" mode="aspectFit" bindtap="previewMultiImages" data-url="{{item.path}}"></image>
+
+  <button class="weui-btn" type="default" bindtap="showImageInfos">查看图片信息</button>
+  <view class="weui-cell" wx:for="{{imageInfos}}">
+    <view class="weui-cell__bd">{{index}}</view>
+    <view class="weui-cell__ft">{{item}}</view>
+  </view>
+
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>可以指定从相册还是直接进入相机，默认两者</text></view>
+  <view class="weui-cell"><text>可以指定使用压缩图还是原图，默认两者</text></view>
+  <view class="weui-cell"><text>可以指定最多的张数</text></view>
+  <view class="weui-cell"><text>res.tempFilePaths 只包含路径</text></view>
+  <view class="weui-cell"><text>res.tempFiles 包含路径和图片大小</text></view>
+  <view class="weui-cell"><text>wx.previewImage.urls = res.tempFilePaths</text></view>
+  <view class="weui-cell"><text>通过 data-** 向事件处理函数传递参数</text></view>
+  <view class="weui-cell"><text>文件大小在res.tempFiles，分辨率在wx.getImageInfo</text></view>
+</view>

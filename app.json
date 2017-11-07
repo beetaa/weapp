@@ -4,7 +4,10 @@
     "pages/ui/list/list",
     "pages/api/list/list",
     "pages/other/list/list",
-    "pages/api/upload/upload"
+    "pages/api/cos/upload/upload",
+    "pages/api/cos/use/use",
+    "pages/app/init/sysinfo/sysinfo",
+    "pages/api/media/image/image"
   ],
   "window": {
     "backgroundTextStyle": "light",
