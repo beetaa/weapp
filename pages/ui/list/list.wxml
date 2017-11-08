@@ -12,9 +12,9 @@
       <view class="weui-cell__bd">Modal</view>
       <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/ui/actionsheet/actionsheet" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">Action Sheet</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">下拉刷新</view>
@@ -30,11 +30,11 @@
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">导航条控制</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access">wx.createAnimation</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/ui/animation/animation" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">动画</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access">wx.createAnimation</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
 </view>
 

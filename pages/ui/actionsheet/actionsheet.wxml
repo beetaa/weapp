@@ -1,0 +1,9 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="showActionSheet">打开</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>点击取消或蒙层时，回调 fail</text></view>
+</view>

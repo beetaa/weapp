@@ -1,0 +1,8 @@
+.anibox {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-style: solid;
+  vertical-align: middle;
+  text-align: center;
+}

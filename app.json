@@ -16,7 +16,9 @@
     "pages/api/system/vibrate/vibrate",
     "pages/ui/toast/toast",
     "pages/ui/loading/loading",
-    "pages/ui/modal/modal"
+    "pages/ui/modal/modal",
+    "pages/ui/actionsheet/actionsheet",
+    "pages/ui/animation/animation"
   ],
   "window": {
     "backgroundTextStyle": "light",

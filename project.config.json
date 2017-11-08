@@ -26,7 +26,7 @@
 				{
 					"id": 0,
 					"name": "haha",
-					"pathName": "pages/app/list/list",
+					"pathName": "pages/ui/list/list",
 					"query": "name=zwm",
 					"scene": "1014"
 				}
