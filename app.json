@@ -9,7 +9,14 @@
     "pages/app/init/sysinfo/sysinfo",
     "pages/api/media/image/image",
     "pages/app/basic/auth/auth",
-    "pages/api/media/voice/voice"
+    "pages/api/media/voice/voice",
+    "pages/app/basic/file/file",
+    "pages/api/media/music/music",
+    "pages/api/system/network/network",
+    "pages/api/system/vibrate/vibrate",
+    "pages/ui/toast/toast",
+    "pages/ui/loading/loading",
+    "pages/ui/modal/modal"
   ],
   "window": {
     "backgroundTextStyle": "light",

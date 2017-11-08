@@ -1,0 +1,10 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="startLongVibrate">长振动（400毫秒）</button>
+  <button class="weui-btn" type="default" bindtap="startShortVibrate">短振动（15毫秒）</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>短振动只适用于iphone7以上和安卓系统</text></view>
+</view>

@@ -4,10 +4,12 @@
   <button class="weui-btn" type="default" bindtap="startPlayVoice">开始播放录音</button>
   <button class="weui-btn" type="default" bindtap="pausePlayVoice">暂停播放录音</button>
   <button class="weui-btn" type="default" bindtap="stopPlayVoice">停止播放录音</button>
+  <button class="weui-btn" type="default" bindtap="startRecorderManager">RecorderManager（最长10分钟）</button>
 </view>
 
 <!-- 备注 -->
 <view class="weui-cells__title app-list-title">备注</view>
 <view class="weui-cells weui-cells_after-title">
-  <view class="weui-cell"><text></text></view>
+  <view class="weui-cell"><text>实现按住录音，放开停止的效果</text></view>
+  <view class="weui-cell"><text>Recorder Manager 可录10分钟</text></view>
 </view>

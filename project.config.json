@@ -26,7 +26,7 @@
 				{
 					"id": 0,
 					"name": "haha",
-					"pathName": "pages/api/media/voice/voice",
+					"pathName": "pages/app/list/list",
 					"query": "name=zwm",
 					"scene": "1014"
 				}

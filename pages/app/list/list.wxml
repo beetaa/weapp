@@ -25,8 +25,12 @@
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">本地存储</view>
+      <view class="weui-cell__bd">本地缓存管理</view>
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="/pages/app/basic/file/file" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">本地文件操作</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">文件,图像,Canvas</view>
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">页面路由和操控</view>

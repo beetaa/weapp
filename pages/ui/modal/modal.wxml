@@ -1,0 +1,11 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="showModal">显示“取消”按钮</button>
+  <button class="weui-btn" type="default" bindtap="showModalNoCancel">不显示“取消”按钮</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>按钮颜色和文本都可以定制</text></view>
+  <view class="weui-cell"><text>按钮字数不超过4个字符</text></view>
+</view>

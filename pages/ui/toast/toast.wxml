@@ -1,0 +1,13 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="showToastSuccess2">成功，停留2秒</button>
+  <button class="weui-btn" type="default" bindtap="showToastLoading5">加载中，停留5秒</button>
+  <button class="weui-btn" type="default" bindtap="showToastImage3">图片作为图标，停留3秒</button>
+  <button class="weui-btn" type="default" bindtap="showToastMask">开启遮罩，停留1.5秒</button>
+  <button class="weui-btn" type="default" bindtap="hideToast">关闭提示</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>本地图片路径使用绝对路径</text></view>
+</view>

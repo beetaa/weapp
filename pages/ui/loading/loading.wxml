@@ -1,0 +1,11 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="showLoading">不使用遮罩</button>
+  <button class="weui-btn" type="default" bindtap="closeLoading">手动关闭提示</button>
+  <button class="weui-btn" type="default" bindtap="autoCloseLoading">使用遮罩，自动关闭（5秒）</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>启用遮罩后要在程序中关闭提示</text></view>
+</view>

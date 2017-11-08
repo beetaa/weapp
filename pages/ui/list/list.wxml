@@ -1,16 +1,16 @@
 <view class="weui-cells__title app-list-title">基本的系统交互</view>
 <view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/ui/toast/toast" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">Toast</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/ui/loading/loading" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">Loading</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/ui/modal/modal" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">Modal</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">Action Sheet</view>

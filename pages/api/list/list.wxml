@@ -10,6 +10,46 @@
     </navigator>
 </view>
 
+<view class="weui-cells__title app-list-title">系统底层</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="/pages/api/system/network/network" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">网络状态信息和响应</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
+    </navigator>
+    <navigator url="/pages/api/system/vibrate/vibrate" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">手机振动控制</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">ok</view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">屏幕亮度和常亮控制</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">系统剪贴板</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">响应用户截屏事件</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">二维码生成、扫描、识别</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">本地缓存使用和管理</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">本地文件使用和管理</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">拨打电话</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+
 <view class="weui-cells__title app-list-title">上传、下载与 COS 对象存储</view>
 <view class="weui-cells weui-cells_after-title">
     <navigator url="/pages/api/cos/upload/upload" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
@@ -36,12 +76,32 @@
       <view class="weui-cell__bd">录音及音频播放</view>
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <navigator url="/pages/api/media/music/music" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">背景音乐播放控制</view>
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
       <view class="weui-cell__bd">视频播放控制</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+
+<view class="weui-cells__title app-list-title">传感器</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">罗盘</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">加速度计</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">蓝牙</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">iBeacon</view>
       <view class="weui-cell__ft weui-cell__ft_in-access"></view>
     </navigator>
 </view>

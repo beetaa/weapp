@@ -16,6 +16,16 @@ App({
     logs.unshift(Date.now())
     console.log(logs)
     wx.setStorageSync('logs', logs)
+    // 监听背景音乐事件
+    wx.onBackgroundAudioPlay(() => {
+      console.log('背景音乐开始播放')
+    })
+    wx.onBackgroundAudioPause(() => {
+      console.log('背景音乐已暂停')
+    })
+    wx.onBackgroundAudioStop(() => {
+      console.log('背景音乐已停止播放')
+    })
     // 登录
     wx.checkSession({
       success: () => {

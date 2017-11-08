@@ -1,0 +1,27 @@
+<view class="page__bd page__bd_spacing">
+  <button class="weui-btn" type="default" bindtap="playMusic">播放背景音乐</button>
+  <button class="weui-btn" type="default" bindtap="pauseMusic">暂停背景音乐</button>
+  <button class="weui-btn" type="default" bindtap="stopMusic">结束背景音乐</button>
+  <button class="weui-btn" type="default" bindtap="forward10Seconds">前进10秒</button>
+  <button class="weui-btn" type="default" bindtap="showMusicStatus">显示背景音乐状态</button>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell" wx:for="{{musicStatus}}">
+      <view class="weui-cell__bd">{{index}}</view>
+      <view class="weui-cell__ft">{{item}}</view>
+    </view>
+  </view>
+  <button class="weui-btn" type="default" bindtap="">使用 Audio Manager</button>
+  <button class="weui-btn" type="default" bindtap="">使用 Audio Context</button>
+  <button class="weui-btn" type="default" bindtap="">使用 Inner Audio Context</button>
+</view>
+
+<!-- 备注 -->
+<view class="weui-cells__title app-list-title">备注</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell"><text>只能同时有一个后台音乐在播放</text></view>
+  <view class="weui-cell"><text>用户离开小程序后，音乐将暂停播放</text></view>
+  <view class="weui-cell"><text>小程序显示在聊天顶部时，则不会暂停</text></view>
+  <view class="weui-cell"><text>其他小程序占用音乐播放器，停止播放</text></view>
+  <view class="weui-cell"><text>通过 Audio Context 控制 audio 组件</text></view>
+  <view class="weui-cell"><text>Inner Audio Context 可同时播放5曲</text></view>
+</view>
