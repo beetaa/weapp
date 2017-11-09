@@ -54,6 +54,7 @@
     </navigator>
 </view>
 
+<!-- 自定义组件要求基础库 1.6.3 以上，要求客户端 6.5.16 或更高，已覆盖 90%，可以使用 -->
 <view class="weui-cells__title app-list-title">模板和自定义组件</view>
 <view class="weui-cells weui-cells_after-title">
     <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">

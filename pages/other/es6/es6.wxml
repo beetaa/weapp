@@ -1,0 +1,58 @@
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Promise</view>
+    <view class="weui-cell__ft"></view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">for...of 遍历</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Class</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Set 和 Map 数据结构</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">解构赋值</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">模板字符串</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Import 和 Export</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Let 和 Const</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">箭头函数</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">箭头函数内外 this 一致</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">函数的缺省参数</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Array</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">String</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+  <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Object.asign</view>
+    <view class="weui-cell__ft">ok</view>
+  </view>
+</view>

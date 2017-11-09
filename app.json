@@ -18,7 +18,8 @@
     "pages/ui/loading/loading",
     "pages/ui/modal/modal",
     "pages/ui/actionsheet/actionsheet",
-    "pages/ui/animation/animation"
+    "pages/ui/animation/animation",
+    "pages/other/es6/es6"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,74 +1,25 @@
-<view class="weui-cells__title app-list-title">ES6 特性</view>
-<!-- https://segmentfault.com/a/1190000007956210  -->
-<!-- http://www.sohu.com/a/132930644_495695  -->
 <view class="weui-cells weui-cells_after-title">
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Promise</view>
+  <!-- https://segmentfault.com/a/1190000007956210  -->
+  <!-- http://www.sohu.com/a/132930644_495695  -->
+  <navigator url="/pages/other/es6/es6" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">ES6 特性</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
   <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Import 和 Export</view>
+    <view class="weui-cell__bd">Canvas 绘图（系统自带）</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <!-- https://github.com/guyoung/WeZRender  -->
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">Canvas 绘图（WeZrender）</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
   <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Let 和 Const</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Arrow Function</view>
+    <view class="weui-cell__bd">SVG 绘图（系统及Webview）</view>
     <view class="weui-cell__ft weui-cell__ft_in-access">解决this问题</view>
   </navigator>
   <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Class</view>
+    <view class="weui-cell__bd">动画特效（第三方）</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">Set 和 Map 数据结构</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">数组扩展功能</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">字符串模板</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__bd">结构赋值</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-</view>
-
-<view class="weui-cells__title app-list-title">Canvas 绘图（系统自带）</view>
-<view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">基本绘图函数</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-</view>
-
-<view class="weui-cells__title app-list-title">Canvas 绘图（WeZrender）</view>
-<!-- https://github.com/guyoung/WeZRender  -->
-<view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">Button</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-</view>
-
-<view class="weui-cells__title app-list-title">SVG 绘图（系统及Webview）</view>
-<view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">Button</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-</view>
-
-<view class="weui-cells__title app-list-title">动画特效（第三方）</view>
-<view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">Button</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
 </view>
