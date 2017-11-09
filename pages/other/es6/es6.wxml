@@ -1,7 +1,7 @@
 <view class="weui-cells weui-cells_after-title">
   <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
     <view class="weui-cell__bd">Promise</view>
-    <view class="weui-cell__ft"></view>
+    <view class="weui-cell__ft">ok</view>
   </view>
   <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
     <view class="weui-cell__bd">for...of 遍历</view>

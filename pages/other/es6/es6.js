@@ -115,6 +115,33 @@ Page({
         console.log('箭头函数内外this一致：', this.data.testVar)
       }
     })
+    // Promise
+    var hello = (count) => {
+      return new Promise((resolve, reject) => {
+        if (count > 100) {
+          resolve('ok')
+        } else {
+          reject(new Error('too small'))
+        }
+      })
+    }
+    hello(99).then((res) => {
+      console.log(res)
+    }, (err) => {
+      console.log(err.message)
+    })
+    // Promise 包装异步 API
+    var sysInfo = () => {
+      return new Promise((resolve, reject) => {
+        wx.getSystemInfo({
+          success: function(res) { resolve(res) },
+          fail: function(err) { reject(err) }
+        })
+      })
+    }
+    sysInfo().then((res) => {
+      console.log(res)
+    })
   },
 
   onShow: function () {

@@ -1,3 +1,5 @@
+<import src="/templates/list.wxml" />
+
 <view class="weui-cells__title app-list-title">基本的系统交互</view>
 <view class="weui-cells weui-cells_after-title">
     <navigator url="/pages/ui/toast/toast" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
@@ -57,8 +59,5 @@
 <!-- 自定义组件要求基础库 1.6.3 以上，要求客户端 6.5.16 或更高，已覆盖 90%，可以使用 -->
 <view class="weui-cells__title app-list-title">模板和自定义组件</view>
 <view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">Button</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
+  <template is="list-navi-arrow" wx:for="{{templateAndComponent}}" data="{{...item}}" />
 </view>

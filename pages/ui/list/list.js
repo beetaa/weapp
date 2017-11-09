@@ -1,11 +1,18 @@
-// pages/ui-list/ui-list.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
+    templateAndComponent: [
+      {
+        url: '',
+        title: '模板',
+        sub: 'ok'
+      },
+      {
+        url: '',
+        title: '自定义组件',
+        sub: ''
+      }
+    ]
   },
 
   /**

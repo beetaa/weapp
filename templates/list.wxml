@@ -1,0 +1,12 @@
+<!--
+  url:
+  title:
+  sub:  
+-->
+
+<template name="list-navi-arrow">
+  <navigator url="{{url}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">{{title}}</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{sub}}</view>
+  </navigator>
+</template>
